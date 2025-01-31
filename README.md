@@ -2,7 +2,8 @@
 Para este reto se planteo el uso de excepciones en el codigo que se desarrollo en los anteriores retos.
 ## Primera parte
 - Add the required exceptions in the Reto 1 code assigments
-´´´python
+
+```python
 def operaciones_basicas(numero_1, numero_2, eleccion_operacion):
     try:
         operacion_matematica = eleccion_operacion.lower().replace(" ", "")
@@ -36,4 +37,4 @@ except ValueError:
     print("Error: Entrada no válida. Asegúrese de ingresar números enteros.")
 except Exception as e:
     print(f"Error inesperado: {str(e)}")
-´´´
+```
